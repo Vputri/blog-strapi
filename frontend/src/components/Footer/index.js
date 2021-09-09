@@ -13,7 +13,7 @@ class Footer extends Component {
                           <ul class="list-unstyled">
                             <li>
                               <a class="text-reset text-decoration-none"
-                                href="http://127.0.0.1:8000/help"
+                                href={process.env.REACT_APP_HELP_URL}
                               >
                                 Pusat Bantuan
                               </a>
@@ -21,20 +21,20 @@ class Footer extends Component {
                             <li>
                             <li>
                               <a class="text-reset text-decoration-none"
-                                href="http://127.0.0.1:8000/contact"
+                                href={process.env.REACT_APP_CONTACT_URL}
                                 >
                                 Hubungi Kami
                               </a>
                             </li>
                               <a class="text-reset text-decoration-none"
-                                href="http://127.0.0.1:8000/term-conditions"
+                                href={process.env.REACT_APP_TERM_URL}
                               >
                                 Syarat dan Ketentuan
                               </a>
                             </li>
                             <li>
                               <a class="text-reset text-decoration-none"
-                                href="http://127.0.0.1:8000/privacy-policy"
+                                href={process.env.REACT_APP_PRIVACY_URL}
                               >
                                 Kebijakan Privasi
                               </a>
